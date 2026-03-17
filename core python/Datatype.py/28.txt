@@ -1,0 +1,14 @@
+28-2-26
+
+****** when you want to print a panttern sbse pehle grid system nikalna pdta hai
+kitne row hai kitna colum hai ak row kw andr kitne column print kr rhe ho
+
+range(start, stop, step)
+
+6 → start
+
+0 → stop (it stops before 0, so 1 is included)
+
+-1 → count backwards
+
+Output:

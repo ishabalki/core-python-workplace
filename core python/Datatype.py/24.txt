@@ -1,0 +1,41 @@
+list is the collective data type
+---collective datatype
+----heterogenious collection
+----enclosed by [] seprated by (,)
+-----order 
+-----mutable
+-----allow duplicates
+----we can fetch data using indexing and slicing
+---it is a sequence data type
+***what is diff between list and array?
+fetch "ritik"
+print(14[2])
+
+fetch {3,9,6}
+print
+
+method of element in list
+append() we can add data -1 element ,it consider single element it is nested list it means list ke andar list.
+single data store mulpile data not consider yet.
+insert()-value he left la add hoil and 
++value he right la add hoil particular index data add,and data in which to transfer to left side,it created the nested list
+extend() it have a iterable-it means ak ak krke access krta hai vo ,iterable nhi hoga to type error dega vo,nested list generated krke nhi degi , 
+
+25
+l1 =[10,20,30,40]
+print(dir(l1))
+
+#[('clear','count','copy','index','pop','remove','reverse','sort']
+l1.clear()
+l2 =l1.copy()
+print("l1:",12)
+print("l2:",l1)
+
+copy method means diff memory location 
+equal too means same memory location
+l3=l1
+print("l3:",l3)
+
+print(l1.count())
+l2 =[]
+l2.count.count()
